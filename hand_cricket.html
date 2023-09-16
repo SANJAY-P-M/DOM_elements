@@ -11,18 +11,28 @@
     <header>
         HAND CRICKET
     </header>
-    <main>
-        <img id="image" src="images/hand-cricket0.png" alt="0"><br>
-        <div id="scoreRecorder">
+    <main class="arrangeInColumn">
+        <!-- Since image 5 was little smaller than other images ,
+        It disturbs the UI and I think it may affect user experience -->
+
+        <!-- To solve warped with a Container -->
+
+        <div id="imageContainer">
+            <img id="image" src="images/hand-cricket0.png" alt="hand_cricket_symbol"><br>
+        </div>
+
+        <div id="scoreRecorder" class="arrangeInRow">
             <div class="score">1</div>
             <div class="score">1</div>
         </div>
-        <button onclick="changeNext()">
-            THROW NEXT
-        </button>
-        <button onclick="reset()">
-            RESET
-        </button>
+        <div class="arrangeInRow">
+            <button onclick="changeNext()">
+                THROW NEXT
+            </button>
+            <button onclick="reset()">
+                RESET
+            </button>
+        </div>
     </main>
 </body>
 </html>
