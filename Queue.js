@@ -1,4 +1,4 @@
-class Queue{
+export default class Queue{
     constructor(){
         this.array = [];
     }
@@ -14,6 +14,8 @@ class Queue{
     forEachElements(doThis){
         this.array.forEach(doThis);
     }
-}
 
-export default Queue;
+    queueLength(){
+        return this.array.length
+    }
+}
