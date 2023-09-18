@@ -67,3 +67,16 @@ button{
     width: 100%;
     height: 100%;
 }
+
+#sumContainer{
+    margin: 32px 0px;
+    color: red;
+    border: solid black 5px;
+    font-size:  38px;
+    padding: 10px;
+}
+
+#sum{
+    font-size: 56px;
+    font-weight: 525;
+}
