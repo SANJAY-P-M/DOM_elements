@@ -67,13 +67,17 @@ button{
     width: 100%;
     height: 100%;
 }
-
+/* When you need to see the total score you need to scroll 
+Thinks It will reduce our product user count lol! */
 #sumContainer{
-    margin: 32px 0px;
+    /* margin: 32px 0px; */
     color: red;
     border: solid black 5px;
     font-size:  38px;
     padding: 10px;
+    position: absolute;
+    top: 73px;
+    right: 10px;
 }
 
 #sum{
