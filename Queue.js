@@ -18,4 +18,7 @@ export default class Queue{
     queueLength(){
         return this.array.length
     }
+    clear(){
+        this.array = [];
+    }
 }
